@@ -4,7 +4,8 @@ using Decorator.ConcreteDecorator;
 using Decorator.Decorator;
 
 namespace DecoratorDemo;
-class Program
+
+internal class Program
 {
     static void Main(string[] args)
     {
