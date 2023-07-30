@@ -11,6 +11,7 @@ internal class Program
     {
         ICar car = new Suzuki();
         CarDecorator decorator = new OfferPrice(car);
+
         Console.WriteLine(
             string.Format(
                 "Make :{0}  Price:{1}  DiscountPrice : {2}"
@@ -18,6 +19,7 @@ internal class Program
                 , decorator.GetDiscountedPrice().ToString()
             )
         );
+
         Console.ReadLine();
     }
 }
